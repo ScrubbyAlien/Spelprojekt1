@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa4ab502aba62c747bb0a177c14eb8f8, type: 3}
-  m_Name: WhenTakeDamage
+  m_Name: WhenEnterFog
   m_EditorClassIdentifier: 
   speedSettings:
     typewriterSpeed: 0.05
@@ -19,13 +19,18 @@ MonoBehaviour:
     timeBetweenQueuedDialogue: 1
   priority: 0
   queueable: 0
-  probability: 1
+  probability: 0.92
   conversationVariations:
   - lines:
     - speaker: Ship Computer
       sentences:
-      - Hull damaged.
-      - Watch out for obstacles.
-    - speaker: Arlo Lynx
+      - 'Warning: The fog is toxic.'
+      - Steer out of it!
+  - lines:
+    - speaker: Ship Computer
       sentences:
-      - I know how to fly the ship!
+      - The fog is harmful. Quick, get out of it!
+  - lines:
+    - speaker: Ship Computer
+      sentences:
+      - We're losing power. The fog is toxic!

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa4ab502aba62c747bb0a177c14eb8f8, type: 3}
+  m_Name: WhenTakeDamageByAsteroid
+  m_EditorClassIdentifier: 
+  speedSettings:
+    typewriterSpeed: 0.05
+    timeBetweenSentences: 1
+    timeBetweenLines: 1
+    timeBetweenQueuedDialogue: 1
+  priority: 0
+  queueable: 0
+  probability: 0.159
+  conversationVariations:
+  - lines:
+    - speaker: Ship Computer
+      sentences:
+      - Hull damaged.
+      - Watch out for obstacles.
+    - speaker: Arlo Lynx
+      sentences:
+      - I know how to fly the ship!
+  - lines:
+    - speaker: Arlo Lynx
+      sentences:
+      - Whoa!
+  - lines:
+    - speaker: Ship Computer
+      sentences:
+      - Look out!
+  - lines:
+    - speaker: Arlo Lynx
+      sentences:
+      - This ship is a disaster.
+    - speaker: Ship Computer
+      sentences:
+      - Well, it's not in the best condition. And your crashing doesn't help.
+  - lines:
+    - speaker: Arlo Lynx
+      sentences:
+      - "Ouch\u2014should have seen that one coming!"
+  - lines:
+    - speaker: Ship Computer
+      sentences:
+      - 'Caution: That''s an asteroid.'
+    - speaker: Arlo Lynx
+      sentences:
+      - Wow, thanks for the astute observation. Never would've guessed.
+  - lines:
+    - speaker: Arlo Lynx
+      sentences:
+      - Whoa!
+  - lines:
+    - speaker: Ship Computer
+      sentences:
+      - 'Caution: Avoid obstacles.'
+  - lines:
+    - speaker: Ship Computer
+      sentences:
+      - 'Caution: Watch out for obstacles.'
+  - lines:
+    - speaker: Ship Computer
+      sentences:
+      - 'Careful: There are obstacles in your path.'
